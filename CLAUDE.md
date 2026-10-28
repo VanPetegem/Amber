@@ -59,6 +59,7 @@ user's file; we read it, we don't edit it.
 > editable TOML. This rule was revised *with* subsystem 5's code, in
 > line with the "scope guards" rule above.
 
+
 **Rendering is not the loader's job.** `Page.body` is raw markdown. HTML
 rendering happens at request time, cached by content hash. The loader
 produces an index of what exists; it does not decide what is shown.
